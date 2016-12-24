@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://material.angularjs.org/1.1.1/docs.css"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link href="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.1/angular-material.css" rel="stylesheet">
+    <link href="https://material.angularjs.org/1.1.1/docs.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js"></script>
+    <script src="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.1/angular-material.js"></script>
+
+</head>
+
+<div ng-controller="AppCtrl" ng-cloak="" class="carddemoBasicUsage" ng-app="MyApp">
+
+
+
+<!-- <md-content class="md-padding">
+ <img src="logo.png" align="top-left" alt="fundoHR"></img>
+
+    <span class="md-headline">FundooHR</span>
+    <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+
+      <md-nav-item md-nav-click="goto('page1')" name="page1">Dash Borads</md-nav-item>
+      <md-nav-item md-nav-click="goto('page2')" name="page2">Enginners</md-nav-item>
+      <md-nav-item md-nav-click="goto('page3')" name="page3">Attendence</md-nav-item>
+
+
+      <md-nav-item md-nav-click="goto('page5')" name="page5">Clients</md-nav-item>
+      <md-nav-item md-nav-click="goto('page6')" name="page6">Reports</md-nav-item>
+
+
+
+
+    </md-nav-bar>
+
+  </md-content> -->
+
+
+  <md-grid-list md-cols="3" md-row-height="300px" ...>
+
+  <md-grid-tile>
+    <md-card>
+    <md-card-title-text>
+      <span class="md-headline">Attendence Summary</span>
+
+
+      <md-button class="md-icon-button" aria-label="Settings">
+     <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+      </md-button>
+      <md-card-actions layout="row" layout-align="center">
+
+     </md-card-actions>
+      <md-card-actions layout="row" layout-align="center">
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
+              <!-- <md-button class="md-fab" aria-label="Date"> -->
+
+              </md-button>
+
+
+
+          </section>
+          <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
+                <!-- <md-button class="md-fab" aria-label="Date">
+
+                </md-button> -->
+
+            </section>
+
+     </md-card-actions>
+
+      <md-card-content layout="row" layout-align="space-between">
+        <div class="md-media-md card-media"></div>
+</md-card>
+</md-grid-tile>
+
+
+
+
+
+<md-grid-tile>
+  <md-card>
+  <md-card-title-text>
+    <span class="md-headline">Attendence Fallout</span>
+
+    <md-button class="md-icon-button" aria-label="Settings">
+      <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+    </md-button>
+    <md-card-actions layout="row" layout-align="center">
+
+   </md-card-actions>
+   <center><span class="md-subhead">Date</span></center>
+    <md-card-content layout="row" layout-align="space-between">
+      <div class="md-media sm-card-media"></div>
+</md-card>
+</md-grid-tile>
+<md-grid-tile>
+  <md-card>
+  <md-card-title-text>
+    <span class="md-headline">Leave Summary</span>
+
+    <md-button class="md-icon-button" aria-label="Settings">
+      <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+    </md-button>
+    <md-card-actions layout="row" layout-align="center">
+
+   </md-card-actions>
+   <center><span class="md-subhead">Date</span></center>
+    <md-card-content layout="row" layout-align="space-between">
+      <div class="md-media sm-card-media"></div>
+</md-card>
+</md-grid-tile>
+
+<md-grid-tile>
+  <md-card>
+  <md-card-title-text>
+    <span class="md-headline">Attendence Fallout</span>
+
+    <md-button class="md-icon-button" aria-label="Settings">
+      <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+    </md-button>
+    <md-card-actions layout="row" layout-align="center">
+
+   </md-card-actions>
+   <center><span class="md-subhead">Date</span></center>
+    <md-card-content layout="row" layout-align="space-between">
+      <div class="md-media sm-card-media"></div>
+</md-card>
+</md-grid-tile>
+<md-grid-tile>
+  <md-card>
+  <md-card-title-text>
+    <span class="md-headline">Attendence Fallout</span>
+
+    <md-button class="md-icon-button" aria-label="Settings">
+      <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+    </md-button>
+    <md-card-actions layout="row" layout-align="center">
+
+   </md-card-actions>
+   <center><span class="md-subhead">Date </span></center>
+    <md-card-content layout="row" layout-align="space-between">
+      <div class="md-media sm-card-media"></div>
+</md-card>
+</md-grid-tile>
+<md-grid-tile>
+  <md-card>
+  <md-card-title-text>
+    <span class="md-headline">Attendence Fallout</span>
+
+    <md-button class="md-icon-button" aria-label="Settings">
+      <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+    </md-button>
+    <md-card-actions layout="row" layout-align="center">
+
+   </md-card-actions>
+
+    <md-card-content layout="row" layout-align="space-between">
+      <div class="md-media sm-card-media"></div>
+</md-card>
+</md-grid-tile>
+</md-grid-list>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="js/card.js"></script>
+<link href="css/card.css" rel="stylesheet">
+</body>
+
+
+</html>

@@ -1,0 +1,61 @@
+.carddemoBasicUsage .card-media {
+  background-color: #d8d1c7;
+
+ }
+
+
+
+  .navBardemoBasicUsage md-content .ext-content {
+    padding: 50px;
+    margin: 20px;
+    background-color: #d8d1c7; }
+
+}
+
+
+.buttondemoBasicUsage section {
+  background: red;
+  border-radius: 3px;
+  text-align: center;
+  margin: 1em;
+  position: relative !important;
+  padding-bottom: 10px; }
+
+.buttondemoBasicUsage md-content {
+  margin-right: 7px; }
+
+.buttondemoBasicUsage section .md-button {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+.buttondemoBasicUsage .label {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  font-size: 14px;
+  opacity: 0.54; }
+  .alignleft {
+  	float: left;
+  }
+
+.md-padding{
+  background-color: #d8d1c7;
+}
+img{
+  max-width: 30px;
+  max-height: 30px;
+
+}
+.md-headline{
+  margin-left: 10px;
+}
+.ng-scope{
+    color:black;
+}
+
+.md-ripple-container{
+  color:#D8D1C7;
+}
+.md-headline{
+  font-size: 10px;
+}

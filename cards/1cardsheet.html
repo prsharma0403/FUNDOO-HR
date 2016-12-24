@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.0/angular-material.css">
+    <link rel="stylesheet" href="https://material.angularjs.org/1.1.0/docs.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"> </script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js"></script>
+    <script src="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.0/angular-material.js"></script>
+</head>
+
+<body>
+    <div ng-controller="AppCtrl" ng-cloak="" class="navBardemoBasicUsage" ng-app="MyApp">
+        <md-content class="md-padding">
+            <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+                <md-nav-item md-nav-click="goto('Dashboard')" name="Dashboard">DashBoard</md-nav-item>
+                <md-nav-item md-nav-click="goto('Engineers')" name="Engineers">Engineers</md-nav-item>
+                <md-nav-item md-nav-click="goto('Attendence')" name="Attendence">Attendence</md-nav-item>
+                <md-nav-item md-nav-click="goto('client')" name="client">Client</md-nav-item>
+                  <md-nav-item md-nav-click="goto('reports')" name="reports">Reports</md-nav-item>
+                <!-- these require actual routing with ui-router or ng-route, so they won't work in the demo
+        <md-nav-item md-nav-sref="app.page4" name="page4">Page Four</md-nav-item>
+        <md-nav-item md-nav-href="#page5" name="page5">Page Five</md-nav-item>
+        -->
+            </md-nav-bar>
+            <div class="ext-content">
+                External content for `<span>{{currentNavItem}}</span>`
+            </div>
+        </md-content>
+    <!-- </div> -->
+
+
+    <md-content class="md-padding" <layout-></layout->xs="column" layout="row">
+        <div flex-xs="" flex-gt-xs="50" layout="column">
+          <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch="">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Card with image</span>
+                <span class="md-subhead">Large</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-lg card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button>Action 1</md-button>
+              <md-button>Action 2</md-button>
+            </md-card-actions>
+          </md-card>
+          <md-card md-theme="{{ showDarkTheme ? 'dark-orange' : 'default' }}" md-theme-watch="">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Card with image</span>
+                <span class="md-subhead">Extra Large</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content layout="row" layout-align="space-between">
+              <div class="md-media-xl card-media"></div>
+
+              <md-card-actions layout="column">
+                <md-button class="md-icon-button" aria-label="Favorite">
+                  <md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
+                </md-button>
+                <md-button class="md-icon-button" aria-label="Settings">
+                  <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+                </md-button>
+                <md-button class="md-icon-button" aria-label="Share">
+                  <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+                </md-button>
+              </md-card-actions>
+            </md-card-content>
+          </md-card>
+        </div>
+        <div flex-xs="" flex-gt-xs="50" layout="column">
+          <md-card md-theme="{{ showDarkTheme ? 'dark-purple' : 'default' }}" md-theme-watch="">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Card with image</span>
+                <span class="md-subhead">Small</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-sm card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button>Action 1</md-button>
+              <md-button>Action 2</md-button>
+            </md-card-actions>
+          </md-card>
+          <md-card md-theme="{{ showDarkTheme ? 'dark-blue' : 'default' }}" md-theme-watch="">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Card with image</span>
+                <span class="md-subhead">Medium</span>
+              </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-md card-media"></div>
+              </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+              <md-button>Action 1</md-button>
+              <md-button>Action 2</md-button>
+            </md-card-actions>
+          </md-card>
+          <div layout="" layout-padding="" layout-align="center end" style="height:200px">
+            <md-checkbox ng-model="showDarkTheme">Use 'Dark' Themed Cards</md-checkbox>
+          </div>
+        </div>
+      </md-content>
+    </div>
+
+
+</body>
+<script src="controller/navbar.js"></script>
+<link rel="stylesheet" href="css/cards.css">
+</html>

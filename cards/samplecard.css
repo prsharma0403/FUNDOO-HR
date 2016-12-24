@@ -1,0 +1,57 @@
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	    background-color: #d8d1c7;
+
+	min-height:40px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #3b5372;
+	font-family: Lato;
+	font-size: 1.7em;
+	/*font-weight: 300;*/
+	/*padding: 30px 25px 33px 25px;*/
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #d8d1c7;
+	/*transition: 0.3s all linear;*/
+	/*height:50%;*/
+}
+img{
+  float:left;
+  max-width: 45px;
+  max-height: 45px;
+
+
+
+}
+
+/*.ng-binding{
+	margin-left: 800px;
+}*/
+/*.glyphicon-time{
+	margin-left: 750px;
+}*/
+.navbar-brand{
+	font-weight: bold;
+	float: left;
+height:70px;
+padding: 25px 25px;
+font-size:15px;
+line-height:20px;
+}
+#text{
+	margin:10px 10px 40px 30px;
+	color:#3b5372;
+}
+.ng-scope{
+	margin-right: 100px;
+}
