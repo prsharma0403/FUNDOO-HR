@@ -1,0 +1,16 @@
+@font-face {
+font-family: 'MyriadPro-Light';
+src: url('FUNDOO-HR/assert/Myriad-Pro-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'LucidaGrande-Bold.ttf';
+src: url('FUNDOO-HR/assert/LucidaGrande-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;}
+@font-face {
+font-family: 'AppleGothic.ttf';
+src: url('FUNDOO-HR/assert/AppleGothic.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;}
